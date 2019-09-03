@@ -13,39 +13,39 @@ public class Apartment {
     private String name;
 
     @Column
-    private String housekind;
+    private String houseKind;
 
     @Column
-    private String roomkind;
+    private String roomKind;
 
     @Column
     private String address;
 
     @Column
-    private String roomnumber;
+    private String roomNumber;
 
     @Column
-    private String bathnumber;
+    private String bathNumber;
 
     @Column
     private String description;
 
     @Column
-    private String prizepernight;
+    private String prizePerNight;
 
 
     public Apartment() {
     }
 
-    public Apartment(String name, String housekind, String roomkind, String address, String roomnumber, String bathnumber, String description, String prizepernight) {
+    public Apartment(String name, String houseKind, String roomKind, String address, String roomNumber, String bathNumber, String description, String prizePerNight) {
         this.name = name;
-        this.housekind = housekind;
-        this.roomkind = roomkind;
+        this.houseKind = houseKind;
+        this.roomKind = roomKind;
         this.address = address;
-        this.roomnumber = roomnumber;
-        this.bathnumber = bathnumber;
+        this.roomNumber = roomNumber;
+        this.bathNumber = bathNumber;
         this.description = description;
-        this.prizepernight = prizepernight;
+        this.prizePerNight = prizePerNight;
     }
 
     public Long getId() {
@@ -64,20 +64,20 @@ public class Apartment {
         this.name = name;
     }
 
-    public String getHousekind() {
-        return housekind;
+    public String getHouseKind() {
+        return houseKind;
     }
 
-    public void setHousekind(String housekind) {
-        this.housekind = housekind;
+    public void setHouseKind(String houseKind) {
+        this.houseKind = houseKind;
     }
 
-    public String getRoomkind() {
-        return roomkind;
+    public String getRoomKind() {
+        return roomKind;
     }
 
-    public void setRoomkind(String roomkind) {
-        this.roomkind = roomkind;
+    public void setRoomKind(String roomKind) {
+        this.roomKind = roomKind;
     }
 
     public String getAddress() {
@@ -88,20 +88,20 @@ public class Apartment {
         this.address = address;
     }
 
-    public String getRoomnumber() {
-        return roomnumber;
+    public String getRoomNumber() {
+        return roomNumber;
     }
 
-    public void setRoomnumber(String roomnumber) {
-        this.roomnumber = roomnumber;
+    public void setRoomNumber(String roomNumber) {
+        this.roomNumber = roomNumber;
     }
 
-    public String getBathnumber() {
-        return bathnumber;
+    public String getBathNumber() {
+        return bathNumber;
     }
 
-    public void setBathnumber(String bathnumber) {
-        this.bathnumber = bathnumber;
+    public void setBathNumber(String bathNumber) {
+        this.bathNumber = bathNumber;
     }
 
     public String getDescription() {
@@ -112,11 +112,11 @@ public class Apartment {
         this.description = description;
     }
 
-    public String getPrizepernight() {
-        return prizepernight;
+    public String getPrizePerNight() {
+        return prizePerNight;
     }
 
-    public void setPrizepernight(String prizepernight) {
-        this.prizepernight = prizepernight;
+    public void setPrizePerNight(String prizePerNight) {
+        this.prizePerNight = prizePerNight;
     }
 }
